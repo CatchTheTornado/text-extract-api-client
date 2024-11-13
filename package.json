@@ -5,15 +5,28 @@
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
-      "build": "tsup src/index.ts --format esm,cjs --dts"
+        "build": "tsup src/index.ts --format esm,cjs --dts"
     },
     "dependencies": {
-      "axios": "^0.21.1"
+        "axios": "^0.21.1"
     },
     "devDependencies": {
-      "tsup": "^5.10.0",
-      "typescript": "^4.3.5"
+        "tsup": "^5.10.0",
+        "typescript": "^4.3.5"
     },
     "author": "Your Name",
-    "license": "MIT"
-  }
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CatchTheTornado/pdf-extract-api-client.git"
+    },
+    "keywords": [
+        "pdf-extract-api",
+        "api-client",
+        "pdf"
+    ],
+    "bugs": {
+        "url": "https://github.com/CatchTheTornado/pdf-extract-api-client/issues"
+    },
+    "homepage": "https://github.com/CatchTheTornado/pdf-extract-api-client#readme"
+}
