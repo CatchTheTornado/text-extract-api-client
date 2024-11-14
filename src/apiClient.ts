@@ -18,9 +18,10 @@ interface OcrResponse {
 class ApiClient {
   private axiosInstance: AxiosInstance;
 
-  constructor(baseURL: string) {
+  constructor(baseURL: string, username?: string, password?: string) {
     this.axiosInstance = axios.create({
       baseURL,
+      auth: username && password ? { username, password } : undefined,
     });
   }
 
