@@ -33,9 +33,10 @@ module.exports = __toCommonJS(src_exports);
 // src/apiClient.ts
 var import_axios = __toESM(require("axios"));
 var ApiClient = class {
-  constructor(baseURL) {
+  constructor(baseURL, username, password) {
     this.axiosInstance = import_axios.default.create({
-      baseURL
+      baseURL,
+      auth: username && password ? { username, password } : void 0
     });
   }
   async uploadFile(data) {

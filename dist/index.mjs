@@ -1,9 +1,10 @@
 // src/apiClient.ts
 import axios from "axios";
 var ApiClient = class {
-  constructor(baseURL) {
+  constructor(baseURL, username, password) {
     this.axiosInstance = axios.create({
-      baseURL
+      baseURL,
+      auth: username && password ? { username, password } : void 0
     });
   }
   async uploadFile(data) {

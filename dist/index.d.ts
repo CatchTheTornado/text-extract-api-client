@@ -13,7 +13,7 @@ interface OcrResponse {
 }
 declare class ApiClient {
     private axiosInstance;
-    constructor(baseURL: string);
+    constructor(baseURL: string, username?: string, password?: string);
     uploadFile(data: FormData): Promise<OcrResponse>;
     requestOcr(data: OcrRequest): Promise<OcrResponse>;
     getResult(taskId: string): Promise<any>;
