@@ -5,7 +5,7 @@ TypeScript client for the [PDF Extract API](https://github.com/CatchTheTornado/p
 ## Installation
 
 ```bash
-npm install pdf-extract-api-client
+npm install text-extract-api-client
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm install pdf-extract-api-client
 First, import the `ApiClient` class and create an instance:
 
 ```typescript
-import { ApiClient, OcrRequest } from 'pdf-extract-api-client';
+import { ApiClient, OcrRequest } from 'text-extract-api-client';
 
 const apiClient = new ApiClient('https://api.example.com');
 ```
