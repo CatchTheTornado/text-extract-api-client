@@ -1,6 +1,6 @@
-# PDF Extract API Client
+# Text Extract API Client
 
-TypeScript client for the [PDF Extract API](https://github.com/CatchTheTornado/pdf-extract-api).
+TypeScript client for the [Text Extract API](https://github.com/CatchTheTornado/text-extract-api).
 
 ## Installation
 

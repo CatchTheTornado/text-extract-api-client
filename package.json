@@ -1,7 +1,7 @@
 {
     "name": "text-extract-api-client",
     "version": "1.0.2",
-    "description": "TypeScript client for the PDF Extract API",
+    "description": "TypeScript client for the Text Extract API",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
@@ -21,7 +21,7 @@
         "url": "git+https://github.com/CatchTheTornado/text-extract-api-client.git"
     },
     "keywords": [
-        "pdf-extract-api",
+        "text-extract-api",
         "api-client",
         "pdf"
     ],
